@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driver Framework]">
+  <test name="bank managerloginTest(failed)">
+    <classes>
+      <class name="project.avi.testcases.BankMangerLoginTest">
+        <methods>
+          <include name="loginbankmanger"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- project.avi.testcases.BankMangerLoginTest -->
+    </classes>
+  </test> <!-- bank managerloginTest(failed) -->
+  <test name="Add customerTest(failed)">
+    <classes>
+      <class name="project.avi.testcases.AddCustomerTest">
+        <methods>
+          <include name="addcustomer"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- project.avi.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add customerTest(failed) -->
+</suite> <!-- Failed suite [Data Driver Framework] -->

@@ -1,0 +1,9 @@
+#bankmangersdetails
+bmlBtn_CSS=div> div> div > div > div:last-child .btn.btn-primary.btn-lg
+
+#Addcustomertest
+addcustbtn=button[ng-click='addCust()']
+firstname=input[ng-model='fName']
+lastname=input[ng-model='lName']
+zipcode=input[ng-model='postCd']
+addcust=button[type='submit']

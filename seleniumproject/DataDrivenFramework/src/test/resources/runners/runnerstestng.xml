@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driver Framework">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<test name="bank managerloginTest">
+		<classes>
+			<class name="project.avi.testcases.BankMangerLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add customerTest">
+		<classes>
+			<class name="project.avi.testcases.AddCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
