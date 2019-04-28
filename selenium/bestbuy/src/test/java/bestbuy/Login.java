@@ -7,8 +7,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class Login extends Rough {
+	
+	@Test
 	public  static Homepage  Loginbb(String username, String password)
 	{	
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='hf_accountMenuLink']"))).click();
@@ -24,8 +27,6 @@ public class Login extends Rough {
 			e.printStackTrace();
 		}
 		 
-//		String usrname= driver.findElement(By.linkText("Hi, Avishek")).getText();
-//		System.out.println(usrname);
 		Assert.assertTrue(driver.findElement(By.xpath("//a[@id='hf_accountMenuLink']")).getText().contains("Hi"));
 		
 		 return  new Homepage();
